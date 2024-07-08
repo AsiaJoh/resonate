@@ -29,6 +29,7 @@ nav a:hover {
 
 .logo {
     width: 80px;
+    border-radius: 50%;
 }
 
 #logo_link {
@@ -60,4 +61,51 @@ body {
 
 #hero-img {
     width: 100%;
+}
+
+main {
+    padding: 5%;
+}
+
+.mid {
+    width: 400px;
+    /* margin-left: auto; */
+    /* float: right; */
+}
+
+.mid-image {
+    text-align: right;
+}
+
+
+footer {
+    background-color: #D97E6A;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #500759
+}
+
+footer a {
+    text-decoration: none;
+    color: #500759
+}
+
+/* footer a:hover {
+    background-color: #500759;
+    color: #F2B66D
+} */
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
