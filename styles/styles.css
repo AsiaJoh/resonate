@@ -136,7 +136,6 @@ footer .social img {
 #analysis {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: repeat(17, 1fr); */
 }
 
 .column-1 {
@@ -160,4 +159,53 @@ footer .social img {
 }
 .paragraph-19 {
     grid-row: 2/3;
+}
+
+/* CSS For Subpage 2  */
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.smol {
+    width: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+}
+
+#main-citation-header {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+#disclaimer {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: repeat (6, auto);
+}
+
+#citation-sub-header {
+    grid-row: 1/2;
+    text-align: center;
+    z-index: 10;
+}
+
+.citation {
+    z-index: 3;
+}
+
+#background-img {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/7;
+    z-index: 1;
 }
